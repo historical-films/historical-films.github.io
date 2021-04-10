@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+.header{
+
+	background-color: yellow;
+	width: 100%;
+	height: 60px;
+    text-align: center;
+    color: black;
+    line-height: 90px;
+
+}
+.content{
+
+	background-color: purple;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: pink;
+
+}
+	
+.footer {
+
+	background-color: yellow;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	color: black;
+	line-height: 70px;
+
+}
+.post{
+
+	display: flex;
+}
+
+.box{
+	background-color: white;
+	color: black;
+	border: 5px solid black;
+	padding: 15px;
+	margin: 15px;
+	flex-grow: 1;
+
+}
+.box img {
+	max-width: 100%;
+}
+
+body{
+
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+	  background-color: purple;
+}
+
